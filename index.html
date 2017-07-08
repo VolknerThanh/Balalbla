@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Happy Birthday</title>
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<!-- css file -->
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<!-- javascript file -->
+	<script src="javascripts.js" type="text/javascript" charset="utf-8" async defer></script>
+	<!-- JQuery file -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+	<script>
+		$(document).ready(hideSlide);
+	</script>
+	
+	<audio autoplay="true" loop = "true">
+		<source src="song.mp3" type="audio/mp3">
+	</audio>
+
+	<header id="header" class="cover-content">
+		<div>
+			<p class="letter">Happy Birthday My Friend</p>
+		</div>
+	</header>
+		
+	<div class="intro">
+		<p>Tao không biết tặng gì cho mày.</p>
+		<p>Thay vì tặng sách, tiểu thuyết hay truyện ngắn.</p>
+		<p>Vì IT là món sở trường của mình.</p>
+		<p>Nên tao sẽ viết cái web bằng những kiến thức tao đã học trong hè.</p>
+	</div>
+
+	<div class="word"> 
+		<p id="date">25/06</p>
+		<p>Chúc mừng sinh nhật : </p>
+		<p id="name">Nguyễn Hồ Ngọc Phú</p>
+		<p>Tuổi mới lời chúc mới</p>
+		<p>Lớn rồi bớt lầy, bớt biến thái, bớt trễ. :)) </p>
+		<p>Tao chúc mày học ngày càng giỏi, xác định đúng chuyên ngành.</p>
+		<p>Đạt được nhiều thành tích vi diệu như giải MOS quốc gia vừa rồi.</p>
+		<p>Sớm kiếm được việc làm như ý.</p>
+		<p>IT là ngành khó có bạn gái nhất nên ráng kiếm nhé :v</p>
+		<p>Chúc cho tình bạn này mãi không tàn. :))</p>
+		<p>Cuối cùng và quan trọng nhất : chúc sức khỏe an lành.</p>
+	</div>
+		
+	<div>
+		<center>
+			<p class="title"> There are our some memories... </p>
+			
+
+			<div class="btn" onclick="main()">
+				Click here
+			</div>
+			<div class="ImageSlide">
+				<section class="imgStyle">
+				  	<img class="mySlides" src="img2.jpg" >
+				  	<img class="mySlides" src="img3.jpg" >
+				  	<img class="mySlides" src="img5.jpg" >
+				</section>
+				<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}
+					    x[myIndex-1].style.display = "block";
+					    setTimeout(carousel, 5000);
+					}
+				</script>
+			</div>
+		</center>
+	</div>
+	<br>
+	<br>
+	<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+		<a href="https://www.facebook.com/thanh.kim.587606" target="_blank">
+			<i class="fa fa-facebook-official"></i>
+			<code class="footer">Volkner Thành</code>
+		</a>
+	</footer>
+
+	
+</body>
+</html>
+

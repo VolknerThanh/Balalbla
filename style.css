@@ -1,0 +1,87 @@
+.cover-content {
+	background-image: -webkit-linear-gradient( 135deg, #F05F57 0%, #360940 100%);
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	padding: 80px 100px ;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.letter {
+	letter-spacing: 2px;
+	font-size: 400%;
+	font-weight: 900;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+}
+
+.word{
+	box-sizing: border-box;
+	padding: 50px 200px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 0.8em;
+}
+#date{
+	color: #EB1750;
+	font-family: 'Abel', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+#name{
+	background-image: -webkit-linear-gradient( 135deg, #79F1A4 0%, #0E5CAD 100%);
+	box-sizing: border-box;
+	font-weight: 500;
+	padding: 10px 20px;
+	max-height: 50px;
+	max-width: 345px;
+	border-radius: 15px;
+}
+
+.intro{
+	font-size: 25px;
+	color: #129b8d;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	padding-left: 200px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.title{
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+	font-size: 40px;
+	font-weight: 500;
+	color: #28C76F;
+}
+
+.btn{
+	padding: 8px 28px;
+	margin: 30px 0px;
+	border-radius: 20px;
+	width: 160px;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	background-image: linear-gradient( 135deg, #FDD819 0%, #E80505 100%);
+}
+
+.ImageSlide{
+	margin: 1em 0;
+}
+
+.active{
+	background-color: #333;
+}
+.imgStyle{
+	width: 100%;
+}
+
+.footer{
+	color: #5EFCE8;
+}
